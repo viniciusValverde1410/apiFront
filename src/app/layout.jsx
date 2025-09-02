@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import Header from "../components/header/page";
+import Footer from "../components/footer/page";
 import "./globals.css";
 
 const rubik = localFont({
@@ -32,6 +33,7 @@ export default function RootLayout({ children }) {
         <main>
         {children}
         </main>
+        <Footer/>
       </body>
     </html>
   );
